@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Shantell+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", "Shantell Sans", cursive, sans-serif;
+  font-size: 20px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+}
+.player-count {
+  margin-left: 350px;
+}
+.computer-count {
+  margin-right: 300px;
+}
+.player-count,
+.computer-count {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+img {
+  width: 200px;
+}
+.game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game-imgs {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.rock,
+.paper,
+.scissors,
+.computerImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+  transform: scale(1.1);
+}
+.computerchoice {
+  margin-right: 300px;
+}
+.choicesImg {
+  margin-top: 150px;
+}
+.computerImagePaper,
+.computerImageScissors {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
